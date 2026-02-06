@@ -51,7 +51,7 @@ The server will start on port 8080. Open http://localhost:8080 in your browser.
 ## Architecture
 
 - **Frontend**: Single HTML page with neobrutalist CSS styling
-- **Backend**: C HTTP server using libmicrohttpd
+- **Backend**: Pure C HTTP server using libmicrohttpd
 - **Processing**: File system operations and string manipulation
 - **API**: RESTful endpoint `/convert` with JSON responses
 
