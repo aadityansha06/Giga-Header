@@ -13,13 +13,13 @@ Converts C projects into header-only files. Available as a CLI tool and a web in
 ## Requirements
 
 - GCC
-- libjson-c-dev
+- json-c (`libjson-c-dev` on Debian/Ubuntu, `json-c` on Arch/Homebrew, `json-c-devel` on Fedora, `mingw-w64-x86_64-json-c` on MSYS2)
 - git
 
 ## Build
 
 ```bash
-make install-deps   # Ubuntu/Debian
+make install-deps   # auto-detects pacman, apt-get, dnf, or brew
 make
 ```
 
